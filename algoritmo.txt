@@ -1,0 +1,29 @@
+install pack
+pip install -U selenium
+
+
+
+Verificar los seguimientos que requieren notificar
+
+1.inicio
+2.Buscar todos los seguimiento true
+3.leer accion()
+4. consultar segun accion
+5.si resultado == escenario
+6.  dejar notificar en true
+7.sino
+8.  marcar notificar false
+9. actualizar estado de caso como "Completado"
+10.fin
+
+
+Notificar seguimientos que tienen true
+
+1.inicio
+2.Buscar todos los las notificaciones true
+3. crear lista de casos
+4. ordener por escenario
+5. crear mensaje html
+6.enviar notificaciones
+7. sumar 1 a todos los casos enviados a nivel de veces reportados
+8.fin
